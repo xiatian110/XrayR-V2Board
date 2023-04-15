@@ -7,8 +7,8 @@ Nodes:
   -
     PanelType: "NewV2board" # Panel type: SSpanel, V2board
     ApiConfig:
-      ApiHost: "YOUR_PANEL_URL" # 修改这里
-      ApiKey: "YOUR_TOKEN" # 修改这里
+      ApiHost: "https://222234.xyz" # 修改这里
+      ApiKey: "wefasdfasfasfasfasf" # 修改这里
       NodeID: 1
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
       Timeout: 30 # Timeout for the api request
@@ -23,8 +23,8 @@ Nodes:
         CertDomain: "node1.test.com" # Domain to cert
         CertFile: /etc/ssl/private/fullchain.pem # Provided if the CertMode is file
         KeyFile: /etc/ssl/private/privkey.pem
-        Provider: alidns # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
+        Provider: cloudflare # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
         Email: test@me.com
         DNSEnv: # DNS ENV option used by DNS provider
-          ALICLOUD_ACCESS_KEY: aaa
-          ALICLOUD_SECRET_KEY: bbb
+          CLOUDFLARE_EMAIL: 445969631@qq.com
+          CLOUDFLARE_API_KEY: 4f8588945e956e4a9fa7ead34a82e6a19eecc
